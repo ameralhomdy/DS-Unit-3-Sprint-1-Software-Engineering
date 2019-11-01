@@ -15,7 +15,7 @@ class AcmeProductTests(unittest.TestCase):
         prod = Product('Test Product')
         self.assertEqual(prod.weight, 20)
 
-    def test_default_product_price(self):
+    def test_default_product_flammability(self):
         """Test default product flammability being 0.5."""
         prod = Product('Test Product')
         self.assertEqual(prod.flammability, 0.5)
